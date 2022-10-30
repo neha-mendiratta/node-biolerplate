@@ -5,7 +5,7 @@
 
 Start by installing the dependencies.
 
-Install Node
+Install Node 14.17.0
 
 ```bash
 $ yarn
@@ -15,11 +15,13 @@ $ yarn
 
 ### `yarn start`
 
-## Service is not connected to database, that's why it is returning the mock data
+Runs the api in the postman/FE.
+Open [http://localhost:3006/api/v1/music-festival/list](http://localhost:3006/api/v1/music-festival/list) to view it in the browser.
+
+## Service is not connected to database, that's why it is returning the mock data. Service is acting more as a mock server.
 
 ## To DO
 
-## install SST Stack to make as serverless application/Decorize 
-
-## Unit Test cases
+- To convert a proper API SST Stack/Decorization with swagger is required 
+- Unit Test cases
 
